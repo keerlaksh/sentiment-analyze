@@ -1,3 +1,5 @@
+import nltk
+nltk.download('vader_lexicon')
 from flask import Flask, render_template, request
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
